@@ -1,0 +1,355 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		2061AD44AAD2B82235EAD80C20C9DE09 /* ApplicationDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1922169D10BA8F2171E63EB80E68661 /* ApplicationDelegate.swift */; };
+		2BA039B108B0AF460049EC127BC15B4D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6A4273A8A9301B571A3DF990BCE2DFAB /* LaunchScreen.storyboard */; };
+		341B1BC0D89A41ADB7C9FE9B44EB4FFF /* NavigationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B75F872F87A0D80A71BDB1F283BCEA2D /* NavigationController.swift */; };
+		3A0F2DAAA9937672CEEA37713E3F5DEB /* KMSOrientationPatch.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 43F26C26BA1ECC11C0B399F4FCBC09CF /* KMSOrientationPatch.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		6B50C37BD98192A9460A99D0025CD28D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0C96DB42F565C41576A2055D2E202155 /* Assets.xcassets */; };
+		8E836D89ED91E96B50C10525B8909E83 /* KMSOrientationPatch.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 43F26C26BA1ECC11C0B399F4FCBC09CF /* KMSOrientationPatch.framework */; };
+		A3D80F892479F54E684D58191C46E339 /* PortraitViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F18708F80D84670D43ED91568B19B752 /* PortraitViewController.swift */; };
+		AC4DD9A51B881E5F01CE0A36653A0344 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CC28AF651F707DE77906D956063BDB41 /* Main.storyboard */; };
+		C043CE10A1028FC8802F543EAEF213A9 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D391CCA2B57CFA283090EE23ECCA2AC7 /* ViewController.swift */; };
+		F56D7062B78FB57CF6743CAB884E7B0B /* LandscapeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E9857B69A34E49AF8A5D3D56FC3B11E /* LandscapeViewController.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		12CC22210EEED813F9094811A64AAB82 /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				3A0F2DAAA9937672CEEA37713E3F5DEB /* KMSOrientationPatch.framework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		0C96DB42F565C41576A2055D2E202155 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		2E9857B69A34E49AF8A5D3D56FC3B11E /* LandscapeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LandscapeViewController.swift; sourceTree = "<group>"; };
+		43F26C26BA1ECC11C0B399F4FCBC09CF /* KMSOrientationPatch.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = KMSOrientationPatch.framework; path = "../../../../Library/Developer/Xcode/DerivedData/KMSOrientationPatch-dkhuehkgswkgbehdmlqvivnjwcuy/Build/Products/Debug-iphonesimulator/KMSOrientationPatch.framework"; sourceTree = "<group>"; };
+		6A4273A8A9301B571A3DF990BCE2DFAB /* LaunchScreen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = LaunchScreen.storyboard; sourceTree = "<group>"; };
+		865EBA1CB4E2E18008208F2290BBC99D /* KMSOrientationPatchExample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = KMSOrientationPatchExample.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		A1922169D10BA8F2171E63EB80E68661 /* ApplicationDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ApplicationDelegate.swift; sourceTree = "<group>"; };
+		B75F872F87A0D80A71BDB1F283BCEA2D /* NavigationController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NavigationController.swift; sourceTree = "<group>"; };
+		CC28AF651F707DE77906D956063BDB41 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
+		D391CCA2B57CFA283090EE23ECCA2AC7 /* ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		F18708F80D84670D43ED91568B19B752 /* PortraitViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PortraitViewController.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		7C920AECD372024BB85D7400C2738758 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8E836D89ED91E96B50C10525B8909E83 /* KMSOrientationPatch.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1AC916169F222F696F4274BA3B271464 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				865EBA1CB4E2E18008208F2290BBC99D /* KMSOrientationPatchExample.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		93EEEDF5A9628EA604C47103B571DE9E /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				43F26C26BA1ECC11C0B399F4FCBC09CF /* KMSOrientationPatch.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		62012530A8B45C0FDF00CF954822BB13 /* Plain */ = {
+			isa = PBXGroup;
+			children = (
+				0C96DB42F565C41576A2055D2E202155 /* Assets.xcassets */,
+			);
+			path = Plain;
+			sourceTree = "<group>";
+		};
+		7182A610D3C7FEA89A17316A091E7B3B = {
+			isa = PBXGroup;
+			children = (
+				93EEEDF5A9628EA604C47103B571DE9E /* Frameworks */,
+				94E51097CFB4E2A0B148BA37AE9DC4BD /* KMSOrientationPatchExample */,
+				1AC916169F222F696F4274BA3B271464 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		94E51097CFB4E2A0B148BA37AE9DC4BD /* KMSOrientationPatchExample */ = {
+			isa = PBXGroup;
+			children = (
+				E6742919AF5B4A6E0EC09B04F6A8CCF8 /* Codes */,
+				99D6C464AEA1D7372BA3DF833DAD6283 /* Resources */,
+			);
+			path = KMSOrientationPatchExample;
+			sourceTree = "<group>";
+		};
+		99D6C464AEA1D7372BA3DF833DAD6283 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				62012530A8B45C0FDF00CF954822BB13 /* Plain */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		E6742919AF5B4A6E0EC09B04F6A8CCF8 /* Codes */ = {
+			isa = PBXGroup;
+			children = (
+				A1922169D10BA8F2171E63EB80E68661 /* ApplicationDelegate.swift */,
+				2E9857B69A34E49AF8A5D3D56FC3B11E /* LandscapeViewController.swift */,
+				6A4273A8A9301B571A3DF990BCE2DFAB /* LaunchScreen.storyboard */,
+				CC28AF651F707DE77906D956063BDB41 /* Main.storyboard */,
+				B75F872F87A0D80A71BDB1F283BCEA2D /* NavigationController.swift */,
+				F18708F80D84670D43ED91568B19B752 /* PortraitViewController.swift */,
+				D391CCA2B57CFA283090EE23ECCA2AC7 /* ViewController.swift */,
+			);
+			path = Codes;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		5EAD1C5169952302DC0402F2B79B2114 /* KMSOrientationPatchExample */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6E721FD09994BEB7F5E774C9691CE37E /* Build configuration list for PBXNativeTarget "KMSOrientationPatchExample" */;
+			buildPhases = (
+				E232821DBE792AE324F89998004847F2 /* Sources */,
+				7C920AECD372024BB85D7400C2738758 /* Frameworks */,
+				9EBA1CA1E69068AA3D5FE0E14AEE0DBB /* Resources */,
+				12CC22210EEED813F9094811A64AAB82 /* Embed Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = KMSOrientationPatchExample;
+			productName = KMSOrientationPatchExample;
+			productReference = 865EBA1CB4E2E18008208F2290BBC99D /* KMSOrientationPatchExample.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F62B92603C45955BB155561F34126167 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0830;
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = "Kirisame Magic Shop";
+				TargetAttributes = {
+					5EAD1C5169952302DC0402F2B79B2114 = {
+						CreatedOnToolsVersion = 8.3.3;
+						DevelopmentTeam = 2UR85QFN4T;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 1AC7B3E036E147A21E8A6E88A54B9D03 /* Build configuration list for PBXProject "KMSOrientationPatchExample" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 7182A610D3C7FEA89A17316A091E7B3B;
+			productRefGroup = 1AC916169F222F696F4274BA3B271464 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				5EAD1C5169952302DC0402F2B79B2114 /* KMSOrientationPatchExample */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		9EBA1CA1E69068AA3D5FE0E14AEE0DBB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6B50C37BD98192A9460A99D0025CD28D /* Assets.xcassets in Resources */,
+				2BA039B108B0AF460049EC127BC15B4D /* LaunchScreen.storyboard in Resources */,
+				AC4DD9A51B881E5F01CE0A36653A0344 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		E232821DBE792AE324F89998004847F2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2061AD44AAD2B82235EAD80C20C9DE09 /* ApplicationDelegate.swift in Sources */,
+				F56D7062B78FB57CF6743CAB884E7B0B /* LandscapeViewController.swift in Sources */,
+				341B1BC0D89A41ADB7C9FE9B44EB4FFF /* NavigationController.swift in Sources */,
+				A3D80F892479F54E684D58191C46E339 /* PortraitViewController.swift in Sources */,
+				C043CE10A1028FC8802F543EAEF213A9 /* ViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		1F8B2DC3421CC4CE1E963401CAA73212 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		403136E388BC7B08E97535BFD886F941 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 2UR85QFN4T;
+				INFOPLIST_FILE = KMSOrientationPatchExample/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = kirisame.magic.shop.KMSOrientationPatchExample;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		7EB824769960BF13848A669EA9FCE5BE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 2UR85QFN4T;
+				INFOPLIST_FILE = KMSOrientationPatchExample/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = kirisame.magic.shop.KMSOrientationPatchExample;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		823CA4A42576BFBB0D6777630AF97CE0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1AC7B3E036E147A21E8A6E88A54B9D03 /* Build configuration list for PBXProject "KMSOrientationPatchExample" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				823CA4A42576BFBB0D6777630AF97CE0 /* Debug */,
+				1F8B2DC3421CC4CE1E963401CAA73212 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6E721FD09994BEB7F5E774C9691CE37E /* Build configuration list for PBXNativeTarget "KMSOrientationPatchExample" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				403136E388BC7B08E97535BFD886F941 /* Debug */,
+				7EB824769960BF13848A669EA9FCE5BE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = F62B92603C45955BB155561F34126167 /* Project object */;
+}

@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="12121" systemVersion="16G29" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="1a0-cq-vra">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="12089"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--Navigation Controller-->
+        <scene sceneID="9bU-zx-7ru">
+            <objects>
+                <navigationController id="1a0-cq-vra" customClass="NavigationController" customModule="KMSOrientationPatchExample" customModuleProvider="target" sceneMemberID="viewController">
+                    <simulatedNavigationBarMetrics key="simulatedTopBarMetrics" barStyle="black" translucent="NO" prompted="NO"/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" barStyle="black" translucent="NO" id="i9M-mk-bk3">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <connections>
+                        <segue destination="v51-yo-RLq" kind="relationship" relationship="rootViewController" id="PEN-Jg-fPW"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="adJ-Zb-gfi" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-334" y="330"/>
+        </scene>
+        <!--Portrait View Controller-->
+        <scene sceneID="XuR-Aw-Y5l">
+            <objects>
+                <viewController id="v51-yo-RLq" customClass="PortraitViewController" customModule="KMSOrientationPatchExample" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="49f-00-H1E"/>
+                        <viewControllerLayoutGuide type="bottom" id="7ol-le-wiJ"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="21O-GZ-d7Q">
+                        <rect key="frame" x="0.0" y="64" width="375" height="603"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="E6d-SN-wwM">
+                                <rect key="frame" x="88" y="20" width="198" height="30"/>
+                                <state key="normal" title="Push Portrait View Controller"/>
+                                <connections>
+                                    <segue destination="v51-yo-RLq" kind="show" id="4lf-Yc-NXJ"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="sNu-b2-4t5">
+                                <rect key="frame" x="76" y="70" width="222" height="30"/>
+                                <state key="normal" title="Push Landscape View Controller"/>
+                                <connections>
+                                    <segue destination="yf1-XT-vRt" kind="show" id="iCq-Va-hHe"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="sNu-b2-4t5" firstAttribute="centerX" secondItem="21O-GZ-d7Q" secondAttribute="centerX" id="CLd-I7-Ylj"/>
+                            <constraint firstItem="E6d-SN-wwM" firstAttribute="centerX" secondItem="21O-GZ-d7Q" secondAttribute="centerX" id="X1k-ut-Lac"/>
+                            <constraint firstItem="sNu-b2-4t5" firstAttribute="top" secondItem="E6d-SN-wwM" secondAttribute="bottom" constant="20" id="fTE-U2-Pdx"/>
+                            <constraint firstItem="E6d-SN-wwM" firstAttribute="top" secondItem="49f-00-H1E" secondAttribute="bottom" constant="20" id="iKy-qb-cGx"/>
+                        </constraints>
+                    </view>
+                    <navigationItem key="navigationItem" id="4tt-bS-Jaa"/>
+                    <simulatedNavigationBarMetrics key="simulatedTopBarMetrics" barStyle="black" translucent="NO" prompted="NO"/>
+                    <userDefinedRuntimeAttributes>
+                        <userDefinedRuntimeAttribute type="string" keyPath="title" value="Portrait"/>
+                    </userDefinedRuntimeAttributes>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="x21-cH-ebK" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="361" y="330"/>
+        </scene>
+        <!--Landscape View Controller-->
+        <scene sceneID="0Rq-iV-YSg">
+            <objects>
+                <viewController id="yf1-XT-vRt" customClass="LandscapeViewController" customModule="KMSOrientationPatchExample" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="jZL-l6-vlg"/>
+                        <viewControllerLayoutGuide type="bottom" id="0Df-p3-q3t"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="yip-NB-pD5">
+                        <rect key="frame" x="0.0" y="64" width="375" height="603"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Lza-Pg-rkT">
+                                <rect key="frame" x="88" y="20" width="198" height="30"/>
+                                <state key="normal" title="Push Portrait View Controller"/>
+                                <connections>
+                                    <segue destination="v51-yo-RLq" kind="show" id="pQq-AM-pd4"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="4DC-yi-RSk">
+                                <rect key="frame" x="76" y="70" width="222" height="30"/>
+                                <state key="normal" title="Push Landscape View Controller"/>
+                                <connections>
+                                    <segue destination="yf1-XT-vRt" kind="show" id="Vym-lg-BLd"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="4DC-yi-RSk" firstAttribute="centerX" secondItem="yip-NB-pD5" secondAttribute="centerX" id="4rz-8g-KJX"/>
+                            <constraint firstItem="Lza-Pg-rkT" firstAttribute="top" secondItem="jZL-l6-vlg" secondAttribute="bottom" constant="20" id="DDn-Mf-wIg"/>
+                            <constraint firstItem="4DC-yi-RSk" firstAttribute="top" secondItem="Lza-Pg-rkT" secondAttribute="bottom" constant="20" id="Hep-z9-wfk"/>
+                            <constraint firstItem="Lza-Pg-rkT" firstAttribute="centerX" secondItem="yip-NB-pD5" secondAttribute="centerX" id="VHc-2s-wPZ"/>
+                        </constraints>
+                        <userDefinedRuntimeAttributes>
+                            <userDefinedRuntimeAttribute type="string" keyPath="title" value="Landscape"/>
+                        </userDefinedRuntimeAttributes>
+                    </view>
+                    <simulatedNavigationBarMetrics key="simulatedTopBarMetrics" barStyle="black" translucent="NO" prompted="NO"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="c5t-3W-yCg" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1042" y="330"/>
+        </scene>
+    </scenes>
+    <inferredMetricsTieBreakers>
+        <segue reference="pQq-AM-pd4"/>
+        <segue reference="iCq-Va-hHe"/>
+    </inferredMetricsTieBreakers>
+</document>
