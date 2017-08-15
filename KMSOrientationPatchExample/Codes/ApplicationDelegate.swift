@@ -9,7 +9,7 @@
 import UIKit
 
 @UIApplicationMain
-internal class ApplicationDelegate: UIResponder, UIApplicationDelegate {
+internal class ApplicationDelegate : UIResponder, UIApplicationDelegate {
 	internal var window: UIWindow?
 
 	internal func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplicationLaunchOptionsKey : Any]?) -> Bool {
