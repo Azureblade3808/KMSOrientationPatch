@@ -8,7 +8,7 @@
 
 import UIKit
 
-internal class PortraitViewController : UIViewController {
+internal class PortraitViewController : ViewController {
 	override
 	internal var supportedInterfaceOrientations: UIInterfaceOrientationMask {
 		return [.portrait, .portraitUpsideDown]
