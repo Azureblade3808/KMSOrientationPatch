@@ -3,16 +3,16 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 46;
+	objectVersion = 48;
 	objects = {
 
 /* Begin PBXBuildFile section */
 		2061AD44AAD2B82235EAD80C20C9DE09 /* ApplicationDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1922169D10BA8F2171E63EB80E68661 /* ApplicationDelegate.swift */; };
 		2BA039B108B0AF460049EC127BC15B4D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6A4273A8A9301B571A3DF990BCE2DFAB /* LaunchScreen.storyboard */; };
 		341B1BC0D89A41ADB7C9FE9B44EB4FFF /* NavigationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B75F872F87A0D80A71BDB1F283BCEA2D /* NavigationController.swift */; };
-		3A0F2DAAA9937672CEEA37713E3F5DEB /* KMSOrientationPatch.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 43F26C26BA1ECC11C0B399F4FCBC09CF /* KMSOrientationPatch.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		4936A9391F43DEEB000DFB27 /* KMSOrientationPatch.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4936A9381F43DEEB000DFB27 /* KMSOrientationPatch.framework */; };
+		4936A93A1F43DEEB000DFB27 /* KMSOrientationPatch.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 4936A9381F43DEEB000DFB27 /* KMSOrientationPatch.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		6B50C37BD98192A9460A99D0025CD28D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0C96DB42F565C41576A2055D2E202155 /* Assets.xcassets */; };
-		8E836D89ED91E96B50C10525B8909E83 /* KMSOrientationPatch.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 43F26C26BA1ECC11C0B399F4FCBC09CF /* KMSOrientationPatch.framework */; };
 		A3D80F892479F54E684D58191C46E339 /* PortraitViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F18708F80D84670D43ED91568B19B752 /* PortraitViewController.swift */; };
 		AC4DD9A51B881E5F01CE0A36653A0344 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CC28AF651F707DE77906D956063BDB41 /* Main.storyboard */; };
 		C043CE10A1028FC8802F543EAEF213A9 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D391CCA2B57CFA283090EE23ECCA2AC7 /* ViewController.swift */; };
@@ -20,13 +20,13 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
-		12CC22210EEED813F9094811A64AAB82 /* Embed Frameworks */ = {
+		4936A93B1F43DEEB000DFB27 /* Embed Frameworks */ = {
 			isa = PBXCopyFilesBuildPhase;
 			buildActionMask = 2147483647;
 			dstPath = "";
 			dstSubfolderSpec = 10;
 			files = (
-				3A0F2DAAA9937672CEEA37713E3F5DEB /* KMSOrientationPatch.framework in Embed Frameworks */,
+				4936A93A1F43DEEB000DFB27 /* KMSOrientationPatch.framework in Embed Frameworks */,
 			);
 			name = "Embed Frameworks";
 			runOnlyForDeploymentPostprocessing = 0;
@@ -36,7 +36,7 @@
 /* Begin PBXFileReference section */
 		0C96DB42F565C41576A2055D2E202155 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		2E9857B69A34E49AF8A5D3D56FC3B11E /* LandscapeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LandscapeViewController.swift; sourceTree = "<group>"; };
-		43F26C26BA1ECC11C0B399F4FCBC09CF /* KMSOrientationPatch.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = KMSOrientationPatch.framework; path = "../../../../Library/Developer/Xcode/DerivedData/KMSOrientationPatch-dkhuehkgswkgbehdmlqvivnjwcuy/Build/Products/Debug-iphonesimulator/KMSOrientationPatch.framework"; sourceTree = "<group>"; };
+		4936A9381F43DEEB000DFB27 /* KMSOrientationPatch.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = KMSOrientationPatch.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		6A4273A8A9301B571A3DF990BCE2DFAB /* LaunchScreen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = LaunchScreen.storyboard; sourceTree = "<group>"; };
 		865EBA1CB4E2E18008208F2290BBC99D /* KMSOrientationPatchExample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = KMSOrientationPatchExample.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A1922169D10BA8F2171E63EB80E68661 /* ApplicationDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ApplicationDelegate.swift; sourceTree = "<group>"; };
@@ -51,7 +51,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				8E836D89ED91E96B50C10525B8909E83 /* KMSOrientationPatch.framework in Frameworks */,
+				4936A9391F43DEEB000DFB27 /* KMSOrientationPatch.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -64,14 +64,6 @@
 				865EBA1CB4E2E18008208F2290BBC99D /* KMSOrientationPatchExample.app */,
 			);
 			name = Products;
-			sourceTree = "<group>";
-		};
-		93EEEDF5A9628EA604C47103B571DE9E /* Frameworks */ = {
-			isa = PBXGroup;
-			children = (
-				43F26C26BA1ECC11C0B399F4FCBC09CF /* KMSOrientationPatch.framework */,
-			);
-			name = Frameworks;
 			sourceTree = "<group>";
 		};
 		62012530A8B45C0FDF00CF954822BB13 /* Plain */ = {
@@ -89,6 +81,14 @@
 				94E51097CFB4E2A0B148BA37AE9DC4BD /* KMSOrientationPatchExample */,
 				1AC916169F222F696F4274BA3B271464 /* Products */,
 			);
+			sourceTree = "<group>";
+		};
+		93EEEDF5A9628EA604C47103B571DE9E /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				4936A9381F43DEEB000DFB27 /* KMSOrientationPatch.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 		94E51097CFB4E2A0B148BA37AE9DC4BD /* KMSOrientationPatchExample */ = {
@@ -132,7 +132,7 @@
 				E232821DBE792AE324F89998004847F2 /* Sources */,
 				7C920AECD372024BB85D7400C2738758 /* Frameworks */,
 				9EBA1CA1E69068AA3D5FE0E14AEE0DBB /* Resources */,
-				12CC22210EEED813F9094811A64AAB82 /* Embed Frameworks */,
+				4936A93B1F43DEEB000DFB27 /* Embed Frameworks */,
 			);
 			buildRules = (
 			);
@@ -155,13 +155,12 @@
 				TargetAttributes = {
 					5EAD1C5169952302DC0402F2B79B2114 = {
 						CreatedOnToolsVersion = 8.3.3;
-						DevelopmentTeam = 2UR85QFN4T;
 						ProvisioningStyle = Automatic;
 					};
 				};
 			};
 			buildConfigurationList = 1AC7B3E036E147A21E8A6E88A54B9D03 /* Build configuration list for PBXProject "KMSOrientationPatchExample" */;
-			compatibilityVersion = "Xcode 3.2";
+			compatibilityVersion = "Xcode 8.0";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
@@ -257,6 +256,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = 2UR85QFN4T;
 				INFOPLIST_FILE = KMSOrientationPatchExample/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = kirisame.magic.shop.KMSOrientationPatchExample;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -270,6 +270,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = 2UR85QFN4T;
 				INFOPLIST_FILE = KMSOrientationPatchExample/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = kirisame.magic.shop.KMSOrientationPatchExample;
 				PRODUCT_NAME = "$(TARGET_NAME)";
