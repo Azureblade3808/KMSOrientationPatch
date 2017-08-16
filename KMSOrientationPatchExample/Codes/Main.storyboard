@@ -105,11 +105,11 @@
                             <constraint firstItem="4DC-yi-RSk" firstAttribute="top" secondItem="Lza-Pg-rkT" secondAttribute="bottom" constant="20" id="Hep-z9-wfk"/>
                             <constraint firstItem="Lza-Pg-rkT" firstAttribute="centerX" secondItem="yip-NB-pD5" secondAttribute="centerX" id="VHc-2s-wPZ"/>
                         </constraints>
-                        <userDefinedRuntimeAttributes>
-                            <userDefinedRuntimeAttribute type="string" keyPath="title" value="Landscape"/>
-                        </userDefinedRuntimeAttributes>
                     </view>
                     <simulatedNavigationBarMetrics key="simulatedTopBarMetrics" barStyle="black" translucent="NO" prompted="NO"/>
+                    <userDefinedRuntimeAttributes>
+                        <userDefinedRuntimeAttribute type="string" keyPath="Title" value="Landscape"/>
+                    </userDefinedRuntimeAttributes>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="c5t-3W-yCg" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
