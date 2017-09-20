@@ -25,6 +25,7 @@ public extension UIDevice {
 	/// - parameters:
 	/// 	- viewController: The view controller to present.
 	/// - returns: Whether a rotation is required.
+	@objc
 	public static func isRotationRequiredToPresent(_ viewController: UIViewController) -> Bool {
 		let application = UIApplication.shared
 		let orientation = application.statusBarOrientation
@@ -38,6 +39,7 @@ public extension UIDevice {
 	/// Performs a fake device rotation, if the active view controller is not currently 
 	/// in its supported interface orientation, to let it have a chance to rotate
 	/// to one of its supported interface orientations.
+	@objc
 	public static func attemptRotationToSupportedOrientations() {
 		let application = UIApplication.shared
 		let device = UIDevice.current
