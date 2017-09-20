@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
 	s.name = "KMSOrientationPatch"
-	s.version = "1.0.0"
+	s.version = "1.1.0"
 	s.summary = "An extension of UIDevice to allow interface rotations upon changes of supported interface orientations."
 	s.homepage = "https://github.com/Azureblade3808/KMSOrientationPatch"
 	s.license = { :type => "Apache License, Version 2.0", :file => "LICENSE" }
